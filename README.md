@@ -78,58 +78,7 @@ vehicle-service-booking/
 - PHP 7.4+
 - MySQL 5.7+
 
-### Steps
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/vehicle-service-booking.git
-   ```
-
-2. **Move to server root**
-   - Copy the folder to `htdocs/` (XAMPP) or `www/` (WAMP)
-
-3. **Create the database**
-   - Open phpMyAdmin → Create database `vehicle_service_db`
-   - Import `sql/database.sql`
-
-4. **Configure DB credentials**
-   - Open `php/config.php`
-   - Update `DB_USER` and `DB_PASS` with your MySQL credentials
-
-5. **Run the project**
-   - Open browser → `http://localhost/vehicle-service-booking/`
-
-### Default Admin Login
-| Field | Value |
-|-------|-------|
-| Email | admin@vehicleservice.com |
-| Password | admin123 |
-
----
-
-## 🗄️ Database Tables
-
-| Table | Purpose |
-|-------|---------|
-| `users` | Stores customers and admins |
-| `vehicles` | Vehicles registered by customers |
-| `service_slots` | Available date-time slots |
-| `appointments` | Booking records with status |
-| `service_history` | Auto-logged on appointment completion |
-
----
-
-## 🎯 Mapped SDG
-
-**SDG 9 — Industry, Innovation and Infrastructure**: Promotes digital transformation in the vehicle service industry.
-
----
-
-## 📸 Screenshots
-
-> Add screenshots of Login, Dashboard, Booking Form, Admin Panel here after running locally.
-
----
 
 ## 📄 License
 
